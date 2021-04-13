@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
+import 'Header.dart';
+import 'InputWrapper.dart';
+
 class LoginPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
     return Scaffold(
       body: Container(
-        width: double.infinity;,
+        width: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(begin: Alignment.topCenter, colors: [
             Colors.cyan[500],
@@ -16,7 +19,7 @@ class LoginPage extends StatelessWidget{
         ),
         child: Column(
           children: <Widget>[
-            SizedBox(height: 80,)
+            SizedBox(height: 80,),
             Header(),
             Expanded(child: Container(
               decoration: BoxDecoration(
