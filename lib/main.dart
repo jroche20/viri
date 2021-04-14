@@ -1,6 +1,7 @@
+import 'package:convergent/dailytip/DailyTip.dart';
 import 'package:flutter/material.dart';
 
-import 'LoginPage.dart';
+import 'login/LoginPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget{
 
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: DailyTip(),
     );
   }
 }

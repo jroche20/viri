@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'Header.dart';
 import 'Header2.dart';
-import 'InputWrapper.dart';
 import 'InputWrapper2.dart';
 
-class LoginPage extends StatelessWidget{
+class SignUpPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 

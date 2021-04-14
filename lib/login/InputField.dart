@@ -8,9 +8,10 @@ class InputField extends StatelessWidget{
         Container(
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
+            color: Colors.white12,
             border: Border(
               bottom: BorderSide(color: Colors.grey[200])
-            )
+            ),
           ),
           child: TextField(
             decoration: InputDecoration(

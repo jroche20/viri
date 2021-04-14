@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Button.dart';
-import 'Button2.dart';
 import 'InputField.dart';
 
-class InputWrapper2 extends StatelessWidget {
+class InputWrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -25,7 +23,19 @@ class InputWrapper2 extends StatelessWidget {
             style: TextStyle(color: Colors.grey),
           ),
           SizedBox(height: 40,),
-          Button2()
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              primary: Colors.teal,
+              onPrimary: Colors.white,
+              minimumSize: Size(188, 45),
+            ),
+            onPressed: () {},
+            child: Text('login',
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.normal
+            )),
+          )
         ],
       ),
     );

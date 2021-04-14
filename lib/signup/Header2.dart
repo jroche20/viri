@@ -9,7 +9,7 @@ class Header2 extends StatelessWidget{
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Center(
-            child: Text("Welcome Back!", style: TextStyle(
+            child: Text("Welcome!", style: TextStyle(
                 color: Colors.black87,
                 fontSize: 40,
                 fontWeight: FontWeight.bold),)
