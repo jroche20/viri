@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Header extends StatelessWidget{
+class Header2 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -16,7 +16,7 @@ class Header extends StatelessWidget{
           ),
           SizedBox(height: 10,),
           Center(
-            child: Text("login to continue", style: TextStyle(color: Colors.grey, fontSize: 18,fontWeight: FontWeight.bold),),
+            child: Text("sign up to continue", style: TextStyle(color: Colors.grey, fontSize: 18,fontWeight: FontWeight.bold),),
           )
         ],
       ),

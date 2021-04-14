@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Button extends StatelessWidget{
+class Button2 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
@@ -12,7 +12,7 @@ class Button extends StatelessWidget{
         borderRadius: BorderRadius.circular(10),
       ),
       child: Center(
-        child: Text("Login", style: TextStyle(
+        child: Text("sign up", style: TextStyle(
           color: Colors.white,
           fontSize: 15,
           fontWeight: FontWeight.bold

@@ -14,9 +14,10 @@ class InputField extends StatelessWidget{
           ),
           child: TextField(
             decoration: InputDecoration(
-              hintText: "Enter your email",
+              hintText: "username",
               hintStyle: TextStyle(color: Colors.grey),
-              border: InputBorder.none
+              border: InputBorder.none,
+              fillColor: Colors.grey,
     ),
           ),
         ),
@@ -24,14 +25,14 @@ class InputField extends StatelessWidget{
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
               border: Border(
-                  bottom: BorderSide(color: Colors.grey[200])
+                  bottom: BorderSide(color: Colors.grey[200]),
               )
           ),
           child: TextField(
             decoration: InputDecoration(
-                hintText: "Enter your password",
+                hintText: "password",
                 hintStyle: TextStyle(color: Colors.grey),
-                border: InputBorder.none
+                border: InputBorder.none,
             ),
           ),
         ),
