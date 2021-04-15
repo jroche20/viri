@@ -12,6 +12,11 @@ class DailyTip extends StatelessWidget {
             SizedBox(
               height: 100,
             ),
+            Container(
+              decoration: BoxDecoration(
+                  color: Colors.lightGreen,
+                  borderRadius: BorderRadius.circular(10)
+          ),),
             Text(
               "here is your daily tip!",
               style: TextStyle(color: Colors.black87, fontSize: 24, fontWeight: FontWeight.bold),
@@ -24,11 +29,7 @@ class DailyTip extends StatelessWidget {
               style: TextStyle(color: Colors.black87,
                   fontSize: 20,
                   fontStyle: FontStyle.normal,
-                  background: Paint()
-                    ..strokeWidth = 30.0
-                    ..color = Colors.greenAccent
-                    ..style = PaintingStyle.stroke
-                    ..strokeJoin = StrokeJoin.round),
+                  ),
               softWrap: true,
               textAlign: TextAlign.center,
               textWidthBasis: TextWidthBasis.longestLine,
