@@ -1,4 +1,5 @@
 import 'package:convergent/dailytip/DailyTip.dart';
+import 'package:convergent/signup/SignUpPage.dart';
 import 'package:flutter/material.dart';
 
 import 'login/LoginPage.dart';
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget{
 
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DailyTip(),
+      home: LoginPage(),
     );
   }
 }
