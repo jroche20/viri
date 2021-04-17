@@ -9,12 +9,28 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/customizable"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Customization" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/rewards"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Share" />
+        <item
+            android:id="@+id/diy"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="DIY Repurposer" />
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Friends" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Settings" />
     </group>
 </menu>
