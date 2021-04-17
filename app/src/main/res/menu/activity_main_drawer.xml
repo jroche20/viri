@@ -10,7 +10,7 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/customizable"
-            android:icon="@drawable/ic_launcher_foreground"
+            android:icon="@drawable/face"
             android:title="Customization" />
         <item
             android:id="@+id/rewards"
