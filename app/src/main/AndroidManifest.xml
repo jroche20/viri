@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Viridescent">
-        <activity
-            android:name=".leaderboard"
-            android:label="@string/title_activity_leaderboard"
-            android:theme="@style/Theme.Viridescent.NoActionBar"></activity>
+        <activity android:name=".leaderboard2"></activity>
         <activity
             android:name=".Settings"
             android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".leaderboard"
+            android:label="@string/title_activity_leaderboard"
+            android:theme="@style/Theme.Viridescent.NoActionBar" />
         <activity
             android:name=".ui.login.login"
             android:label="@string/title_activity_login" />
